@@ -10,6 +10,7 @@ class CalculatorTest {
         val result = calculator.add(5,5)
         assertEquals(10,result)
     }
+    @Test
     fun mult_test(){
         val calculator = Calculator()
         val result = calculator.mult(5,5)
